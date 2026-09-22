@@ -1,0 +1,138 @@
+{
+  "engine": "cricket-chase-v1-t20",
+  "brier": 0.11137250026313039,
+  "log_loss": 0.34401191177952023,
+  "brier_baseline_base_rate": 0.2499583985146766,
+  "brier_baseline_book": null,
+  "n_test": 19070,
+  "calibration": [
+    {
+      "bucket": "0%-5%",
+      "n": 3542,
+      "mean_predicted": 0.012194889181906102,
+      "actual_win_rate": 0.010163749294184076
+    },
+    {
+      "bucket": "5%-10%",
+      "n": 1103,
+      "mean_predicted": 0.07403024573332088,
+      "actual_win_rate": 0.06799637352674524
+    },
+    {
+      "bucket": "10%-15%",
+      "n": 766,
+      "mean_predicted": 0.12448101476765323,
+      "actual_win_rate": 0.11488250652741515
+    },
+    {
+      "bucket": "15%-20%",
+      "n": 709,
+      "mean_predicted": 0.17474324067191446,
+      "actual_win_rate": 0.19464033850493653
+    },
+    {
+      "bucket": "20%-25%",
+      "n": 584,
+      "mean_predicted": 0.22468261773192477,
+      "actual_win_rate": 0.2517123287671233
+    },
+    {
+      "bucket": "25%-30%",
+      "n": 573,
+      "mean_predicted": 0.27688206041650076,
+      "actual_win_rate": 0.31762652705061084
+    },
+    {
+      "bucket": "30%-35%",
+      "n": 549,
+      "mean_predicted": 0.325209256125431,
+      "actual_win_rate": 0.3551912568306011
+    },
+    {
+      "bucket": "35%-40%",
+      "n": 481,
+      "mean_predicted": 0.3750301994271514,
+      "actual_win_rate": 0.3887733887733888
+    },
+    {
+      "bucket": "40%-45%",
+      "n": 525,
+      "mean_predicted": 0.42635620654877054,
+      "actual_win_rate": 0.4723809523809524
+    },
+    {
+      "bucket": "45%-50%",
+      "n": 567,
+      "mean_predicted": 0.474556214951685,
+      "actual_win_rate": 0.4991181657848324
+    },
+    {
+      "bucket": "50%-55%",
+      "n": 542,
+      "mean_predicted": 0.5254552224281197,
+      "actual_win_rate": 0.507380073800738
+    },
+    {
+      "bucket": "55%-60%",
+      "n": 538,
+      "mean_predicted": 0.5750201804496551,
+      "actual_win_rate": 0.550185873605948
+    },
+    {
+      "bucket": "60%-65%",
+      "n": 561,
+      "mean_predicted": 0.6255197565744534,
+      "actual_win_rate": 0.6007130124777184
+    },
+    {
+      "bucket": "65%-70%",
+      "n": 570,
+      "mean_predicted": 0.6752678210424692,
+      "actual_win_rate": 0.6719298245614035
+    },
+    {
+      "bucket": "70%-75%",
+      "n": 653,
+      "mean_predicted": 0.725734056803098,
+      "actual_win_rate": 0.7228177641653905
+    },
+    {
+      "bucket": "75%-80%",
+      "n": 676,
+      "mean_predicted": 0.7758607397746188,
+      "actual_win_rate": 0.7751479289940828
+    },
+    {
+      "bucket": "80%-85%",
+      "n": 806,
+      "mean_predicted": 0.824260859504974,
+      "actual_win_rate": 0.8399503722084367
+    },
+    {
+      "bucket": "85%-90%",
+      "n": 967,
+      "mean_predicted": 0.8764210176828454,
+      "actual_win_rate": 0.890382626680455
+    },
+    {
+      "bucket": "90%-95%",
+      "n": 1285,
+      "mean_predicted": 0.9266399302998978,
+      "actual_win_rate": 0.9439688715953307
+    },
+    {
+      "bucket": "95%-100%",
+      "n": 3073,
+      "mean_predicted": 0.9810271596872333,
+      "actual_win_rate": 0.9895867230719166
+    }
+  ],
+  "train_window": "<= 2024-01-01",
+  "valid_window": "2024-01-01..2025-07-01",
+  "test_window": ">= 2025-07-01",
+  "first_innings_total_mae": 18.5,
+  "n_first_innings_test": 21509,
+  "test_chase_win_rate": 0.5064,
+  "graduated": true,
+  "graduation_gaps": []
+}
