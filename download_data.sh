@@ -23,7 +23,6 @@ SLUGS=(
   ilt         # International League T20      ~134 matches
   npl         # Nepal Premier League          ~64 matches
   sma         # Syed Mushtaq Ali Trophy       ~695 matches
-  csa_t20_challenge  # CSA T20 Challenge      ~314 matches
   etpl        # European T20 Premier League   ~29 matches
 )
 

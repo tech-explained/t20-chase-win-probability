@@ -6,8 +6,8 @@ that only lets a model ship when it proves calibration on strictly
 time-ordered, out-of-sample data.
 
 Companion to the paper *"Less Is More: Calibrated Live Win Probabilities for
-Men's T20 Run Chases from a Simple Logistic Model"* (submitted to the MIT
-Sloan Sports Analytics Conference 2027 Research Paper Competition).
+Men's T20 Run Chases from a Simple Logistic Model"* (prepared for submission
+to the MIT Sloan Sports Analytics Conference 2027 Research Paper Competition).
 
 ## Results (held-out test: 19,070 chase snapshots, Jul 2025 – Sep 2026)
 
